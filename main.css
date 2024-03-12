@@ -3886,3 +3886,24 @@
 			}
 
 	}
+#banner {
+    position: relative;
+    text-align: center;
+    color: #fff; /* Set the text color to white or your preferred color */
+    padding: 100px 0; /* Adjust the padding as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner .content {
+    position: relative;
+    z-index: 1;
+}
+
+#banner h2, #banner p, #banner ul {
+    position: relative;
+    z-index: 2;
+}
+
+
